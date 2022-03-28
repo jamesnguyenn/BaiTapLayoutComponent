@@ -167,9 +167,8 @@ class Item extends Component {
               src="https://images.unsplash.com/photo-1606851182594-953bc03b61c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
               style={{
                 width: "100%",
-                height: "200px",
-                flexShrink: "0",
-                cursor: "pointer",
+                height: "100%",
+                objectFit: "cover",
               }}
               alt="card-4"
             />
